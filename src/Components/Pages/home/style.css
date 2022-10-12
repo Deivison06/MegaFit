@@ -32,7 +32,7 @@ a {
 ul {
     display: flex;
     align-items: center;
-    gap: 50px;
+    gap: 30px;
 }
 
 li {
@@ -112,45 +112,83 @@ li a {
     flex-direction: column;
     position: absolute;
     left: 50%;
-    top:40%;
+    top:50%;
     transform: translate(-50%, -50%);
 }
 .menu-item{
     text-align: center;
-    margin-bottom: .48px;
+    margin-bottom: .41px;
 }
 .menu-link{
     font-family:"Baloo Da 2", serif ;
-    font-size: 2em;
+    font-size: 25px;
     color: black;
 }
 
 .menu-link:hover{
-    color: var(--principal);
+    color: var(--color-principal);
 }
+
     
 }
-.social-media{
-    position: absolute;
-    bottom: 2rem;
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-}
 
 
 
 
-/*--------- sessão----------- */
+
+/*---------primeira sessão----------- */
 
 section {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 1064px;
+    height: 100%;
     background-color: rgb(243, 243, 243);
 }
+.banner{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 90px;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.section-title{
+    padding-right: 30px;
+}
+.section-title h1,h2{
+    font-family:"Roboto Condensed" ;
+    font-size: 60px;
+    font-weight: bolder;
+}
+.mini-p{
+    font-family: "Mulish";
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 15px;
+    left: 15px;
+    color: var(--color-principal);
+}
+.section-title p{
+    font-family: "Mulish";
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 15px;
+    left: 15px;
+}
+.img-wrapper{
+    display: flex;
+}
+.img-wrapper img{
+    width: 500px;
+    height: 400px;
+}
+
+
 
 .Anal2{
     width: 100%;
