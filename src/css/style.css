@@ -535,9 +535,8 @@
     padding-bottom: 1rem;
     border-bottom: 1px solid var(--main-color);
   }
-  
   /* Responsivo */
-  @media (max-width: 450px) {
+  @media  screen and (max-width: 750px) {
     /* Geral */
     body {
       overflow-x: hidden;
